@@ -1,35 +1,78 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ososalive | Aba</title>
+<title>Ososalive — Security Analyst | Software Engineer | AI & Data Scientist</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui}
-body{background:#0a0a0a;color:#fff}
-.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;background:radial-gradient(circle at 30% 20%,#1a1a2e,#0a0a0a)}
-.card{max-width:600px;width:100%;background:#111;border:1px solid #222;border-radius:24px;padding:32px}
-.badge{display:inline-block;background:#fff;color:#000;padding:6px 14px;border-radius:99px;font-size:12px;font-weight:700;margin-bottom:20px}
-h1{font-size:42px;line-height:1.1;margin-bottom:10px}
-h1 span{color:#888}
-p{color:#999;margin:16px 0}
-.btns{display:flex;gap:12px;margin-top:24px;flex-wrap:wrap}
-.btn{padding:14px 22px;border-radius:12px;text-decoration:none;font-weight:600}
-.btn1{background:#fff;color:#000}
-.btn2{background:#222;color:#fff;border:1px solid #333}
-.loc{margin-top:20px;color:#666;font-size:14px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#f8fafc;color:#0f172a;line-height:1.6}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:28px 0;border-bottom:1px solid #e2e8f0}
+.logo{font-weight:700;font-size:20px}.logo span{color:#2563eb}
+.nav-links a{margin-left:24px;font-size:14px;font-weight:500;color:#475569;text-decoration:none}
+.hero{padding:100px 0 60px;display:grid;grid-template-columns:1.2fr 0.8fr;gap:40px;align-items:center}
+@media(max-width:800px){.hero{grid-template-columns:1fr}}
+.badge{display:inline-block;background:#dbeafe;color:#1d4ed8;padding:6px 12px;border-radius:999px;font-size:12px;font-weight:600;margin-bottom:20px}
+h1{font-size:54px;line-height:0.95;letter-spacing:-2.5px;font-weight:700;margin-bottom:20px}
+@media(max-width:600px){h1{font-size:38px}}
+h1 .accent{color:#2563eb}
+.lead{font-size:18px;color:#475569;max-width:520px;margin-bottom:32px}
+.roles{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px}
+.role{border:1px solid #e2e8f0;background:white;padding:8px 14px;border-radius:999px;font-size:13px;font-weight:500;color:#334155}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:14px 22px;border-radius:10px;font-size:14px;font-weight:600;display:inline-flex;gap:8px;text-decoration:none}
+.btn-primary{background:#0f172a;color:white}.btn-secondary{background:white;border:1px solid #e2e8f0;color:#0f172a}
+.card{background:white;border:1px solid #e2e8f0;border-radius:16px;padding:28px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
+.stat{padding:16px;background:#f8fafc;border-radius:12px}.stat b{font-size:20px;display:block}.stat span{font-size:12px;color:#64748b}
+.section{padding:60px 0;border-top:1px solid #e2e8f0}.section-title{font-size:28px;letter-spacing:-1px;margin-bottom:8px}.section-sub{color:#64748b;margin-bottom:32px;max-width:600px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}@media(max-width:800px){.grid3{grid-template-columns:1fr}}
+.service{background:white;border:1px solid #e2e8f0;border-radius:16px;padding:26px}.service h3{font-size:16px;margin-bottom:8px}.service p{font-size:14px;color:#64748b}.service .icon{width:40px;height:40px;background:#f1f5f9;border-radius:10px;display:grid;place-items:center;margin-bottom:16px;font-size:18px}
+footer{padding:40px 0;color:#94a3b8;font-size:13px;text-align:center;border-top:1px solid #e2e8f0;margin-top:40px}
 </style>
 </head>
 <body>
-<div class="hero"><div class="card">
-<div class="badge">AVAILABLE IN ABA</div>
-<h1>Ososalive<br><span>is alive.</span></h1>
-<p>Building cool things from Aba, Abia State, Nigeria. Creator, developer, and entrepreneur focused on the future.</p>
-<div class="btns">
-<a class="btn btn1" href="mailto:ososalive@gmail.com">Contact Me</a>
-<a class="btn btn2" href="https://github.com/ososalive">GitHub</a>
+<div class="container">
+<nav><div class="logo">OSOS<span>ALIVE</span></div><div class="nav-links"><a href="#expertise">Expertise</a><a href="#contact">Contact</a></div></nav>
+<div class="hero">
+<div>
+<div class="badge">AVAILABLE FOR PROJECTS & COLLABORATION</div>
+<h1>Building secure,<br>intelligent<br><span class="accent">systems.</span></h1>
+<p class="lead">I'm Ososalive — Security Analyst, Software Engineer, AI Analyst, Data Scientist & Technical Engineer from Aba, Nigeria. I help companies build secure and data-driven products.</p>
+<div class="roles"><div class="role">Security Analyst</div><div class="role">Software Engineer</div><div class="role">AI Analyst</div><div class="role">Data Scientist</div><div class="role">Technical Engineer</div></div>
+<div class="cta">
+<a class="btn btn-primary" href="mailto:godwinosondu96@gmail.com">Email Me →</a>
+<a class="btn btn-secondary" href="https://github.com/ososalive" target="_blank">View GitHub</a>
 </div>
-<div class="loc">📍 Aba, Abia State • Nigeria • ososalive.is-a.dev</div>
-</div></div>
+</div>
+<div class="card">
+<h3 style="font-size:16px;margin-bottom:6px">Ososalive — Godwin Osondu</h3>
+<p style="font-size:13px;color:#64748b;margin-bottom:20px">Ifite Awka, Anambra State, NG • Remote Worldwide</p>
+<p style="font-size:14px;color:#334155">Focused on cybersecurity, secure software development, AI systems, and data analytics. Passionate about solving real problems with clean, professional engineering.</p>
+<div class="stats"><div class="stat"><b>5+</b><span>Roles</span></div><div class="stat"><b>Secure</b><span>by design</span></div><div class="stat"><b>AI & Data</b><span>Driven</span></div></div>
+</div>
+</div>
+<div id="expertise" class="section">
+<h2 class="section-title">Expertise</h2>
+<p class="section-sub">A multidisciplinary approach — security first, engineering excellence always.</p>
+<div class="grid3">
+<div class="service"><div class="icon">🛡️</div><h3>Cybersecurity Analysis</h3><p>Threat modeling, vulnerability assessment, security audits, and hardening systems against modern threats.</p></div>
+<div class="service"><div class="icon">💻</div><h3>Software Engineering</h3><p>Full-stack development, clean architecture, scalable APIs and production-grade applications.</p></div>
+<div class="service"><div class="icon">🤖</div><h3>AI & Data Science</h3><p>AI analysis, machine learning models, data pipelines, insights and intelligent automation.</p></div>
+</div>
+</div>
+<div id="contact" class="section">
+<h2 class="section-title">Let's build something secure & smart.</h2>
+<p class="section-sub">Open to freelance, full-time roles, and security consultations. Response within 24 hours.</p>
+<div class="cta">
+<a class="btn btn-primary" href="mailto:godwinosondu96@gmail.com">godwinosondu96@gmail.com</a>
+<a class="btn btn-secondary" href="https://github.com/ososalive">github.com/ososalive</a>
+</div>
+</div>
+<footer>© 2026 Ososalive — Built from Aba, serving the world. • ososalive.is-a.dev</footer>
+</div>
 </body>
 </html>
